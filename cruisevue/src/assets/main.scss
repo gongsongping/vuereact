@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Avenir', Helvetica, Arial,  sans-serif;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  button:focus {
+    outline: none;
+    /* background-color:red; */
+  }
+  button:active {
+    background: #81b8d8;
+    color:#ee6654;
+  }
+  
+  a:link, a:visited, a:active  {
+    text-decoration: none;
+  }
+  
+  .active {
+    color: #00B4CF;
+    background: #435466;
+  }
+  .active1 {
+    color: #00B4CF;
+    border-bottom: 3px solid #00B4CF;
+  }
